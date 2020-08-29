@@ -1,7 +1,7 @@
 const { User } = require('../../src/app/models');
 
 describe('Authentication', () => {
-    it('Authenticate a user', async () => {
+    it('should authenticate a user', async () => {
         const user = await User.create({
             name: "Felipe",
             email: "fe.marchioli@gmail.com",
